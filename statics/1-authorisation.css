@@ -1,0 +1,45 @@
+* {
+    margin      : 0;
+    padding     : 0;
+    box-sizing  : border-box;
+    font-family : Tahoma, serif;
+}
+
+html, body {
+    background-image : linear-gradient(to right, #136a8a, #267871);
+    height           : 100vh;
+    font-size        : 20px;
+    text-rendering   : optimizeLegibility;
+    overflow-x       : hidden;
+}
+
+div {
+    margin     : 30px;
+    padding    : 10px;
+    text-align : center;
+    color      : #fff;
+}
+
+input {
+    margin  : 20px;
+    padding : 10px;
+}
+
+.login a:visited,
+.login a:link {
+    text-decoration  : none;
+    color            : white;
+    background-color : #94d11d;
+    padding          : 8px;
+    border-radius    : 10px;
+}
+
+.forgot-pass a {
+    font-size : 18px;
+}
+
+.forgot-pass a:visited,
+.forgot-pass a:link {
+    text-decoration : none;
+    color           : #80cec2;
+}

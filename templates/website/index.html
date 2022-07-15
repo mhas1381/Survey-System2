@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey System</title>
+
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+
+<div class="auth">
+    <a href="{% url 'accounts:login' %}">ورود به سامانه نظرسنجی توسط سامانه احراز هویت مرکزی</a>
+    <a class="manager" href="admin">ورود به عنوان مدیر</a>
+</div>
+
+</body>
+</html>

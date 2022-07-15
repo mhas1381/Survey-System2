@@ -1,0 +1,49 @@
+* {
+    margin      : 0;
+    padding     : 0;
+    box-sizing  : border-box;
+    font-family : Tahoma, serif;
+}
+
+html, body {
+    background-image : linear-gradient(to right, #136a8a, #267871);
+    height           : 100vh;
+    font-size        : 20px;
+    text-rendering   : optimizeLegibility;
+    overflow-x       : hidden;
+}
+
+.auth {
+    height        : 200px;
+    position      : absolute;
+    top           : 50%;
+    left          : 50%;
+    -ms-transform : translate(-50%, -50%);
+    transform     : translate(-50%, -50%);
+}
+
+.auth a {
+    background-color : #94d11d;
+    padding          : 12px;
+    border-color     : #fd4218;
+    color            : #000000;
+    border-radius    : 5px;
+}
+
+.auth a:visited,
+.auth a:link {
+    text-decoration : none;
+}
+
+.auth .manager {
+    text-align       : center;
+    float            : right;
+    left             : 155px;
+    width            : 28%;
+    margin           : 20px 50px;
+    display          : block;
+    font-size        : 15px;
+    font-weight      : bold;
+    background-color : #77a030;
+    color            : #090c09;
+}

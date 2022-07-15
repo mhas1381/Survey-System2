@@ -1,0 +1,8 @@
+<html>
+    {% if request.user.is_authenticated %}
+<p>user is authenticated as {{request.user.username}}</p>
+{% else %}
+user is not authenticated'
+{% endif %}
+    Answer to this questions
+</html>
