@@ -1,7 +1,4 @@
 {% extends 'base.html' %}
-<!DOCTYPE html>
-<html>
-
 {% block content %}
 <h1 class ="text-center mb-3">Poll Questions</h1>
 {% if latest_question_list %}
@@ -17,15 +14,7 @@
 {% endfor %}
 {% else %}
 
-<p>No survey available</p>
+<p>No surveys available</p>
 
 {% endif %}
-{% if request.user.is_authenticated %}
-<p>user is authenticated as {{request.user.username}}</p>
-{% else %}
-user is not authenticated'
-{% endif %}
-    Answer to this questions
 {% endblock %}
-
-</html>

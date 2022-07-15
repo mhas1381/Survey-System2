@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
-<html>
 {% block content %}
-<a class ="btn btn-secondary btn-sm mb-3" href ="{% url 'survey:index' %}">Back To Polls</a>
+<a class ="btn btn-secondary btn-sm mb-3" href ="{% url 'survey:index' %}">Back To survey</a>
 <h1 class ="text-center mb-3">{{ question.question_text }}</h1>
 
 {% if error_message %}
@@ -23,4 +22,3 @@
 	<input type ="submit" value ="Vote" class ="btn btn-success btn-lg btn-block mt-4" />
 </form>
 {% endblock %}
-</html>
