@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form class="login" method="post" action="{% url 'accounts:survey' %}">
+    <form class="login" method="post" action="{% url 'accounts:login' %}">
         {% csrf_token %}
         <div class="username-input" >
             <label>
