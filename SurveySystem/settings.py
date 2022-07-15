@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'website',
     'accounts',
     'survey',
-
+    'pages'
 ]
 
 MIDDLEWARE = [
