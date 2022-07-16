@@ -30,7 +30,7 @@ input {
 .login a:link {
     text-decoration: none;
     color: white;
-    background-color: #94d11d;
+    background-color: #1d8fd1;
     padding: 8px;
     border-radius: 10px;
 }
@@ -42,7 +42,7 @@ input {
 .forgot-pass a:visited,
 .forgot-pass a:link {
     text-decoration: none;
-    color: #80cec2;
+    color: #031d19;
 }
 
 .button {
