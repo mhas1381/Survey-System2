@@ -25,7 +25,7 @@ html, body {
 .auth a {
     background-color : #381dd1;
     padding          : 12px;
-    border-color     : #fd4218;
+    border-color     : #106bb6;
     color            : #000000;
     border-radius    : 5px;
 }
@@ -44,6 +44,6 @@ html, body {
     display          : block;
     font-size        : 15px;
     font-weight      : bold;
-    background-color : #ee1a1a;
+    background-color : #3a1aee;
     color            : #090c09;
 }
