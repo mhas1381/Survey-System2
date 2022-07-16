@@ -1,45 +1,77 @@
 * {
-    margin      : 0;
-    padding     : 0;
-    box-sizing  : border-box;
-    font-family : Tahoma, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, serif;
 }
 
-html, body {
-    background-image : linear-gradient(to right, #136a8a, #267871);
-    height           : 100vh;
-    font-size        : 20px;
-    text-rendering   : optimizeLegibility;
-    overflow-x       : hidden;
+html,
+body {
+    background-image: linear-gradient(to bottom, #6048e6, #f7f7f7);
+    height: 100vh;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 div {
-    margin     : 30px;
-    padding    : 10px;
-    text-align : center;
-    color      : #fff;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
 }
 
 input {
-    margin  : 20px;
-    padding : 10px;
+    margin: 20px;
+    padding: 10px;
 }
 
 .login a:visited,
 .login a:link {
-    text-decoration  : none;
-    color            : white;
-    background-color : #94d11d;
-    padding          : 8px;
-    border-radius    : 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #94d11d;
+    padding: 8px;
+    border-radius: 10px;
 }
 
 .forgot-pass a {
-    font-size : 18px;
+    font-size: 18px;
 }
 
 .forgot-pass a:visited,
 .forgot-pass a:link {
-    text-decoration : none;
-    color           : #80cec2;
+    text-decoration: none;
+    color: #80cec2;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left:570px;
+
+    
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #614caf;
+}
+.button1:hover {
+    background-color: #5d66e9;
+    color: white;
+  }
+  .wrapper {
+    text-align: center;
 }

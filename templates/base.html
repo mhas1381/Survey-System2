@@ -4,13 +4,8 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Pollster {% block title %}{% endblock %}</title>
-	{% if request.user.is_authenticated %}
-	<p>user is authenticated as {{request.user.get_full_name}}</p>
-	{% else %}
-	user is not authenticated'
-	{% endif %}
-	<a href="{% url 'accounts:logout' %}">logout</a>
+    <title>Survey System  {% block title %}{% endblock %}</title>
+
 </head>
 
 <body>
@@ -23,6 +18,7 @@
             </div>
         </div>
     </div>
+
 
 </body>
 

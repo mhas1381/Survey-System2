@@ -1,5 +1,14 @@
 <nav class="navbar navbar-dark bg-primary mb-4">
     <div class="container">
-        <a class="navbar-brand" href="/">Pollster</a>
+        <a class="navbar-brand" href="/">Survey System</a>
+		
+		<a class="navbar-brand" >
+			{% if request.user.is_authenticated %}
+		{{request.user.get_full_name}}
+		{% else %}
+		user is not authenticated'
+		{% endif %}
+		</a> 
+		<a class="navbar-brand" href="{% url 'accounts:logout' %}">logout</a>
     </div>
 </nav>
