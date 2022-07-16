@@ -1,49 +1,92 @@
 * {
-    margin      : 0;
-    padding     : 0;
-    box-sizing  : border-box;
-    font-family : Tahoma, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, serif;
 }
 
-html, body {
-    background-image : linear-gradient(to bottom, #6048e6, #f7f7f7);
-    height           : 100vh;
-    font-size        : 20px;
-    text-rendering   : optimizeLegibility;
-    overflow-x       : hidden;
+html,
+body {
+    background-color: #fff;
+    height: 100vh;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
-.auth {
-    height        : 200px;
-    position      : absolute;
-    top           : 50%;
-    left          : 50%;
-    -ms-transform : translate(-50%, -50%);
-    transform     : translate(-50%, -50%);
+
+.web-title p {
+    padding: 25px;
+    margin: 7px auto;
+    background-color: #1d8fd1;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    border-radius: 9px;
 }
 
-.auth a {
-    background-color : #381dd1;
-    padding          : 12px;
-    border-color     : #106bb6;
-    color            : #000000;
-    border-radius    : 5px;
+div {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    color: #000;
 }
 
-.auth a:visited,
-.auth a:link {
-    text-decoration : none;
+input {
+    margin: 20px;
+    padding: 10px;
+    border: #1d8fd1 solid 2px;
 }
 
-.auth .manager {
-    text-align       : center;
-    float            : right;
-    left             : 155px;
-    width            : 28%;
-    margin           : 20px 50px;
-    display          : block;
-    font-size        : 15px;
-    font-weight      : bold;
-    background-color : #3a1aee;
-    color            : #090c09;
+.login a:visited,
+.login a:link {
+    text-decoration: none;
+    color: white;
+    background-color: #1d8fd1;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.forgot-pass{
+    padding: 1px;
+    margin: 1px;
+}
+
+.forgot-pass a {
+    font-size: 15px;
+}
+
+.forgot-pass a:visited,
+.forgot-pass a:link {
+    text-decoration: none;
+    color: #031d19;
+}
+
+.button {
+    border: none;
+    color: rgb(37, 106, 196);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px auto;
+    display: block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    top: 50%;
+    left:570px;
+}
+
+.button1 {
+    background-color: #1d8fd1;
+    color: #fff;
+    border: 2px solid #ebebeb;
+}
+.button1:hover {
+    background-color: #5d66e9;
+    color: white;
+  }
+  .wrapper {
+    text-align: center;
 }

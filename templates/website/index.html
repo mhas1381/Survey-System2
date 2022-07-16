@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <title>Survey System</title>
 
-    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="stylesheet" href="{% static 'styles2.css' %}">
 </head>
 <body>
 
 <div class="auth">
-    <a href="{% url 'accounts:login' %}">ورود به سامانه احراز هویت مرکزی وانجام نظرسنجی</a>
+    <div class="general-login">
+        <a href="{% url 'accounts:login' %}">ورود به سامانه احراز هویت مرکزی و انجام نظرسنجی</a>
+    </div>
     
-    <a  href="admin">ورود به عنوان مدیر</a>
+    <div class="admin-login">
+        <a  href="admin">ورود به عنوان مدیر</a>
+    </div>
+    
 </div>
 
 </body>
